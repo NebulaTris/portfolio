@@ -29,9 +29,9 @@ const Feedback = () => (
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          With the development of today's technology, metaverse is very
-          useful for today's work, or can be called web 3.0. by using
-          metaverse you can use it as anything
+          Get ready to embark on a journey of discovery and inspiration! 
+          Cool blogs are on the horizon, bringing you a unique blend of insights, creativity, and entertainment. 
+          Stay tuned for a dose of awesomeness coming your way!
         </p>
       </motion.div>
 

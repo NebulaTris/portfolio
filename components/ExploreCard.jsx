@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
-const ExploreCard = ({ id, imgUrl, title, index, details, active, handleClick }) => (
+const ExploreCard = ({ id, imgUrl, title, index, details, link, active, handleClick }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
@@ -41,6 +41,9 @@ const ExploreCard = ({ id, imgUrl, title, index, details, active, handleClick })
         </h2>
         <p className="font-normal text-[16px] leading-[20.16px] text-white ">
           {details}
+        </p>
+        <p className="font-semibold text-[16px] leading-[40px] text-white ">
+          {link}
         </p>
       </div>
     )}

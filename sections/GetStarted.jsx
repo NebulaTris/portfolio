@@ -37,7 +37,9 @@ const GetStarted = () => (
             <StartSteps
               key={feature}
               number={`${index < 10 ? '0' : ''} ${index + 1}`}
-              text={feature}
+              text={feature.text}
+              text1={feature.univ}
+
             />
           ))}
         </div>

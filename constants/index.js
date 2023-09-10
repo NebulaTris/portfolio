@@ -4,51 +4,66 @@ export const exploreWorlds = [
     imgUrl: '/planet-01.png',
     title: 'Vibescape',
     details: 'Vibescape is an emotion music recommender system that provides a unique and personalized music streaming experience.',
+    link: <a href="https://github.com/NebulaTris">Link</a>,
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
     title: 'PixelQuest',
     details: 'PixelQuest is a nostalgic journey back to the golden age of arcade gaming, featuring classic games like Space Invaders, Super Mario Bros, Classic Tetris, Minesweeper, and Pac-Man.',
+    link: <a href="https://github.com/NebulaTris">Link</a>,
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
     title: 'Brainsherlock',
     details: 'BrainSherlock is a Streamlit app designed to help analyze mental health using various techniques.',
+    link: <a href="https://github.com/NebulaTris">Link</a>,
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
     title: 'BodyBuddy',
     details: 'BodyBuddy is a fitness exercise app built with React 18. It leverages machine learning and your devices webcam to recommend exercises for different target areas, correct your pose, and count your reps.',
+    link: <a href="https://github.com/NebulaTris">Link</a>,
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
     title: 'FinProphet',
     details: 'FinProphet is a MERN finance dashboard that incorporates machine learning predictions.',
+    link: <a href="https://github.com/NebulaTris">Link</a>,
 
   },
 ];
 
 export const startingFeatures = [
-  'Bachelor of Technology in Computer Science and Engineering',
-  'Bachelor of Science in Data Science and Programming',
+  {
+    text: 'BTech CSE',
+    univ: '~ Amity University, Noida',
+  },
+  {
+    text: 'BS Data Science and Programming',
+    univ: '~ Indian Institute of Technology, Madras',
+  },
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/work.svg',
+    title: 'Project Trainee',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Hexaware Technologies · Full-time',
+    subtitle2:
+        'Jun 2018',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/work.svg',
+    title: 'Mentee',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Codess.Cafe · Part-time',
+    subtitle2:
+        'Jan 2023 - Present',
   },
 ];
 
@@ -75,19 +90,24 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: 'github',
+    url: '/github.svg',
+    link: 'https://github.com/NebulaTris',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    link: 'https://www.linkedin.com/in/nebulatris/',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    link: 'https://www.instagram.com/nebulatris/',
   },
   {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'gmail',
+    url: '/gmail.svg',
+    link: 'www.shamish.201002@gmail.com',
   },
+
 ];
