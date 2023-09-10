@@ -4,35 +4,35 @@ export const exploreWorlds = [
     imgUrl: '/planet-01.png',
     title: 'Vibescape',
     details: 'Vibescape is an emotion music recommender system that provides a unique and personalized music streaming experience.',
-    link: <a href="https://github.com/NebulaTris">Link</a>,
+    link: <a href="https://github.com/NebulaTris/vibescape">Link</a>,
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
     title: 'PixelQuest',
     details: 'PixelQuest is a nostalgic journey back to the golden age of arcade gaming, featuring classic games like Space Invaders, Super Mario Bros, Classic Tetris, Minesweeper, and Pac-Man.',
-    link: <a href="https://github.com/NebulaTris">Link</a>,
+    link: <a href="https://github.com/NebulaTris/PixelQuest">Link</a>,
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
     title: 'Brainsherlock',
     details: 'BrainSherlock is a Streamlit app designed to help analyze mental health using various techniques.',
-    link: <a href="https://github.com/NebulaTris">Link</a>,
+    link: <a href="https://github.com/NebulaTris/brainsherlock">Link</a>,
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
     title: 'BodyBuddy',
     details: 'BodyBuddy is a fitness exercise app built with React 18. It leverages machine learning and your devices webcam to recommend exercises for different target areas, correct your pose, and count your reps.',
-    link: <a href="https://github.com/NebulaTris">Link</a>,
+    link: <a href="https://github.com/NebulaTris/bodybuddy">Link</a>,
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
     title: 'FinProphet',
     details: 'FinProphet is a MERN finance dashboard that incorporates machine learning predictions.',
-    link: <a href="https://github.com/NebulaTris">Link</a>,
+    link: <a href="https://github.com/NebulaTris/FinProphet">Link</a>,
 
   },
 ];
@@ -102,12 +102,12 @@ export const socials = [
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/nebulatris/',
+    link: 'https://www.instagram.com/nebula_tris/',
   },
   {
     name: 'gmail',
     url: '/gmail.svg',
-    link: 'www.shamish.201002@gmail.com',
+    link: 'mailto:www.shamish.201002@gmail.com',
   },
 
 ];
